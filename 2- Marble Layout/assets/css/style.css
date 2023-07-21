@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    font-family: "Trebuchet MS";
+}
+.container{
+    padding: 0px 150px;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#header{
+    background-color: #f7f7f7;
+    height: 80px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+#logo{
+    width: 30%;
+    float: left;
+}
+#navigation{
+    width: 40%;
+    float: right;
+    text-align: right;
+    margin-top: 8px;
+}
+#navigation ul li{
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+    font-weight: 600;
+    color: #4e4e4e;
+    font-size: 16px;
+}
+.background-image-container img{
+    width: 100%;
+}
+#bussiness-container {
+    border-bottom: 2px solid #e1e1e1;
+  }
+.bussiness-items {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+.bussiness-items img{
+    margin-bottom: 20px;
+}
+.bussiness-items h3{
+    margin-bottom: 20px;
+    color: #4e4e4e;
+}
+.bussiness-items p{
+    color: #949494;
+}
+#main-heading{
+    margin-top: 60px;
+    color: #4e4e4e;
+    font-weight: 600;
+}
+#works-container{
+    margin-top: 30px;
+}
+.works-items{
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+}
+.works-items :nth-child(3){
+    margin-right: 0px;
+}
+.works-items img{
+    width: 100%;
+}
+.works-items h3{
+    margin-top: 10px;
+    color: #4e4e4e;
+}
+.works-items .gray-paragraph{
+    color: #bebebe;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.works-items p{
+    color:  #949494;
+    margin-bottom: 10px;
+
+}
+#Testimonial-container{
+    background-color: #efefef;
+    height: 200px;
+    text-align: center;
+    padding-top: 60px;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+#Testimonial-container img{
+    margin-bottom: 20px;
+}
+#Testimonial-container p{
+    color: #ababab;
+}
+#footer{
+    background-color: #1f1f1f;
+    padding-top: 60px;
+    box-sizing: border-box;
+    padding-bottom: 60px;
+}
+.footer-items{
+    float: left;
+    width: 23%;
+    margin-right: 2%;
+}
+.footer-items :nth-child(4){
+    margin-right: 0px;
+}
+.footer-items h4{
+    color: #6c6c6c;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.footer-items p{
+    color: #b8b8b8;
+    margin-bottom: 20px;
+}
+#sub-footer{
+    border-bottom: 3px solid #313131;
+}
+#twitter-footer p{
+    position: relative;
+}
+#twitter-footer p:before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-image: url("../images/tweet.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: 5px;
+}
+#footer-para{
+    color: #949494;
+    margin-top: 60px;
+}
